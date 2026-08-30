@@ -10,6 +10,7 @@ A personal grab-bag of sysadmin, forensics, and media-processing scripts.
 | [`disk_clean.sh`](./disk_clean.sh) | Cleans up a Pop!_OS/Debian-based system: APT cache, logs, Snap cache, Python caches, Trash, and interactively deletes files >500MB in `/home`. |
 | [`stig_harden_ubuntu.sh`](./stig_harden_ubuntu.sh) | Applies DISA-STIG-style hardening to Ubuntu 22.04 (UFW, auditd, fail2ban, libpam-pwquality, and related lockdown steps). Must be run as root. |
 | [`openvpn-install.sh`](./openvpn-install.sh) | Third-party ([angristan/openvpn-install](https://github.com/angristan/openvpn-install)) secure OpenVPN server installer for Debian, Ubuntu, CentOS, Amazon Linux 2, Fedora, Oracle Linux, Arch, Rocky, and AlmaLinux. |
+| [`wireguard-install.sh`](./wireguard-install.sh) | Interactive WireGuard server installer and client manager (add/revoke clients, QR code for mobile) for Debian, Ubuntu, Fedora, CentOS/Rocky/AlmaLinux, and Arch. Companion to `openvpn-install.sh` for the WireGuard case. |
 | [`maintenance-debian.md`](./maintenance-debian.md) | `auto-maintenance.sh` — a scheduled Debian + WordPress maintenance script (unattended-upgrades setup, update/cleanup routine) with logging. |
 | [`Upgrade_Debian.md`](./Upgrade_Debian.md) | Step-by-step guide for upgrading a vanilla Debian 12 "bookworm" install to Debian 13 "trixie," including handling third-party repos. |
 
